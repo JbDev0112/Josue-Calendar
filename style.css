@@ -45,17 +45,17 @@ tr {
     text-align: center;
     align-items: center;
     padding: 15px;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid;
 }
 
 th {
-    color: black;
+    color: red;
 }
 
 td {
-    background-color: black;
-    color: black;
+    background-color: white;
+    color: red;
 }
 
 
