@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('https://wallpaperaccess.com/full/2510458.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.month {
+    margin-bottom: 30px;
+}
+
+.month-name {
+    color: violet;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.table {
+    border-collapse: collapse;
+    background-image: url();
+    background-size: cover;
+    width: 100%;
+}
+
+th,
+td,
+tr {
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid;
+}
+
+th {
+    color: black;
+}
+
+td {
+    background-color: black;
+    color: black;
+}
+
+
+
+td:empty {
+    background-color: black;
+}
+
+@media (max-width: 767px) {
+    .col-12 {
+        margin-bottom: 20px;
+    }
+}
+
